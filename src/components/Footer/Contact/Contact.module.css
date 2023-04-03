@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0;
+    gap: 5rem;
+    width: 30rem;
+}
+
+.container h3{
+    font-size: 2.4rem;
+}
+
+.container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container ul li{
+    list-style: none;
+    font-size: 1.6rem;
+    color: gray;
+    text-decoration: none;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        text-align: start;
+        width: 100%;
+    }
+    .container h3{
+        font-size: 2rem;
+    }
+
+    .container ul li{
+        font-size: 1.5rem;
+    }
+}

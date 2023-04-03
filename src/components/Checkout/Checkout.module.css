@@ -1,0 +1,264 @@
+.form{
+    height: 100%;
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4vh;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voltar{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 1.6rem;
+    transition: .42s;
+    cursor: pointer;
+}
+
+.voltar:hover{
+    scale: 1.03;
+}
+
+.voltar:hover > .arrow{
+    transform: translateX(-4px);
+}
+
+.voltar .arrow{
+    height: 1.5rem;
+    width: 2rem;
+    transition: 0.42s;
+}
+
+.esquerda .produtos{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    overflow-y: scroll;
+    gap: 2rem;
+    width: 30vw;
+}
+
+.esquerda{
+    flex: 55%;
+    background-color: rgb(240, 240, 240);
+    height: 100%;
+    display: flex;
+    gap: 2rem;
+    padding: 12vw;
+    flex-direction: column;
+}
+
+    /* estiliza o indicador de scroll */
+    ::-webkit-scrollbar {
+        width: 0.5rem;
+    }
+  
+  /* muda a cor do indicador de scroll */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 1rem;
+  }
+  
+  /* estiliza o indicador de scroll quando o usuário está interagindo com ele */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+.valor{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    gap: 1rem;
+}
+
+.valorTotal{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.imagem{
+    height: 11rem;
+    width: 12rem;
+    border-radius: 1rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.descUnidade{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.quadrado{
+    background-color: white;
+    padding: 0.2rem 1rem;
+    width: 4rem;
+    text-align: center;
+    border-radius: 0.4rem;
+}
+
+.quadradosep{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+
+.totalProduto{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.termos{
+    font-size: 1.3rem;
+    cursor: pointer;
+    width: 10rem;
+}
+
+.direita{
+    flex: 45%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 20px 20px 40px;
+    padding: 10vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    border: 0.1rem solid rgb(204, 204, 204);
+    padding: 1rem;
+    width: 30vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    outline: none;
+    border-radius: 1rem;
+}
+
+.input1, .input2, .input3{
+    width: 100%;
+    padding: 1rem;
+}
+
+.input1{
+    border-bottom: 0.1rem solid rgb(204, 204, 204);
+}
+
+.input2{
+    border-right: 0.1rem solid rgb(204, 204, 204);
+}
+
+.input4{
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+}
+
+.input4:nth-child(1){
+    border-bottom: 0.1rem solid rgb(204, 204, 204);
+    border-radius: 1rem 1rem 0 0;
+}
+
+.input4:nth-child(2){
+    border-radius: 0 0 1rem 1rem;
+}
+
+.cardInformation{
+    display: grid;
+    width: 30vw;
+    grid-template-rows: repeat(2, auto);
+    border: 0.1rem solid rgb(204, 204, 204);
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card{
+    margin-top: 1rem;
+    width: 100%;
+    height: 10rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.alinhamento{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+}
+
+.cardInformationTop{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cardInformationbottom{
+    display: flex;
+}
+
+.nome{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.button{
+    width: 30vw;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .42s;
+    border-radius: 0.4rem;
+}
+
+.button:hover{
+    background-color: rgb(36, 36, 36);
+}
+
+@media screen and (max-width: 1000px) {
+    .container{
+        height: auto;
+    }
+    .esquerda .produtos{
+        width: 80vw;
+    }
+    .esquerda{
+        width: 100%
+    }
+    .direita{
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    .button{
+        width: 80vw;
+    }
+    .input{
+        width: 80vw;
+    }
+    .cardInformation{
+        width: 80vw;
+    }
+}

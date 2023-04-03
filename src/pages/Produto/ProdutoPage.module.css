@@ -1,0 +1,26 @@
+.container{
+    height: 100vh;
+    margin: 0 10%;
+    display: flex;
+}
+
+.esquerda{
+    flex: 50%;
+    background-color: rgb(187, 187, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.esquerda img{
+    width: 30rem;
+}
+
+.direita{
+    flex: 30%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

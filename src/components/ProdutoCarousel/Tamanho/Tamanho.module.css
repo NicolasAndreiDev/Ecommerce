@@ -1,0 +1,21 @@
+.button{
+    padding: 1.5rem;
+    border: none;
+    width: auto;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.tamanho{
+    display: flex;
+    gap: 1rem;
+}
+
+.tamanho input{
+    display: none
+}
+
+.tamanho input:checked + label{
+    background-color: black;
+    color: white;
+}

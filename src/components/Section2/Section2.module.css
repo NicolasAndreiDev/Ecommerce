@@ -1,0 +1,40 @@
+.section{
+    display: flex;
+    justify-content: center;
+    padding-top: 7.2rem;
+    height: 100vh;
+    flex-direction: column;
+    scroll-snap-align: start;
+}
+
+.titulo h2{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    width: 100%; 
+    margin-bottom: 7.2rem;
+}
+
+.botao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.botao button{
+    padding: 0.8rem 1.6rem ;
+    border: none;
+    border-radius: 1.6rem;
+    background-color: white;
+    cursor: pointer;
+    transition: .42s;
+}
+
+.botao button:hover{
+    scale: 1.05;
+}

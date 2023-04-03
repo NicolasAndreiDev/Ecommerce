@@ -1,0 +1,32 @@
+.alinhamento{
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper{
+    height: 40rem;
+    width: 40rem;
+    text-align: center;
+}
+
+.slide2{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.swiperBottom{
+    height: 20rem;
+    width: 40rem;
+    margin-top: 2rem;
+}
+
+.slide1{
+    cursor: pointer;
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+
+

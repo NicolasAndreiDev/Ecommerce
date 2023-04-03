@@ -1,0 +1,6 @@
+.section{
+    scroll-snap-align: start;
+    height: auto;
+    scroll-margin-block-end: 1rem;
+    padding-top: 7.2rem;
+}

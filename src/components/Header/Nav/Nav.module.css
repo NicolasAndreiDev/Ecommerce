@@ -1,0 +1,76 @@
+.nav{
+    display: flex;
+    text-transform: uppercase;
+    gap: 2.4rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.links, .user, .navmenu{
+    width: 30rem;
+}
+
+.links{
+    display: flex;
+    gap: 2rem;
+    text-align: start;
+}
+
+.home h1{
+    font-size: 2.5rem;
+}
+
+.user{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.user .icon, .menu{
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+.notificacao{
+    height: 1.5rem;
+    position: absolute;
+    right: -0.6rem;
+    top: -0.01rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    color: white;
+    border-radius: 100%;
+    background-color: rgb(50, 196, 111);
+    cursor: pointer;
+}
+
+.navmenu{
+    display: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.nav .ativa{
+    font-weight: bold;
+}
+
+@media screen and (max-width:900px) {
+    .home h1{
+        font-size: 2rem;
+    }
+    .navmenu{
+        display: flex;
+    }
+    .links{
+        display: none;
+    }
+}

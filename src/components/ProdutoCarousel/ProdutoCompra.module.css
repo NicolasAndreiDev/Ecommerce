@@ -1,0 +1,220 @@
+.container{
+    height: 100vh;
+    padding: 7.2rem 10% 0 10%;
+    display: flex;
+}
+
+.esquerda{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.slides{
+    display: flex;
+    height: 70%;
+}
+
+.alinhamento{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    gap: 6rem;
+    padding-left: 2rem;
+}
+
+.slide1{
+    height: 100%;
+    width: 60%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.slide2{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.direita{
+    flex: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direita h2{
+    font-size: 3rem;
+    color: #484848;
+}
+
+.preco{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.preco span{
+    color: #484848;
+    font-weight: 700;
+}
+
+.swiper{
+    width: 38vw;
+    height: 100%;
+    text-align: center;
+}
+
+.swiperaside{
+    height: 100%;
+    width: 12vw;
+}
+
+.compra{
+    display: flex;
+    gap: 1rem;
+}
+
+.buttonDiv{
+    width: 12vw;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonDiv .button{
+    height: 100%;
+    border: none;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+
+.addCart{
+    background-color: black;
+    border: 0.1rem solid black;
+    color: white;
+    height: 4rem;
+    width: 15vw;
+    cursor: pointer;
+    transition: .42s;
+}
+
+.addCartTamanho {
+    background-color: gray;
+    border: none;
+    color: white;
+    height: 4rem;
+    width: 15vw;
+}
+
+.addCart:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.select{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+@media screen and (max-width:1500px) {
+    .swiperaside{
+        height: 55vh;
+    }
+    .alinhamento{
+        padding: 0;
+    }
+    .slides{
+        height: 80%;
+    }
+    .esquerda{
+        align-items: start;
+        padding-top: 8rem;
+    }
+    .swiper{
+        text-align: center;
+    }
+    .slide2{
+        width: 38vw;
+        height: 50rem;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .slides{
+        height: 100%;
+        width: 100%;
+    }
+    .swiperaside{
+        display: none;
+    }
+    .container{
+        flex-direction: column;
+        padding: 0;
+        padding-top: 7.2rem;
+    }
+    .swiper{
+        width: 100%;
+    }
+    .slide2{
+        width: 50rem;
+        height: 60rem;
+    }
+    .direita{
+        align-items: start;
+        padding: 6rem 0;
+        width: 100%;
+    }
+    .alinhamento{
+        width: 80%;
+    }
+    .buttonDiv{
+        width: 40%;
+    }
+    .addCart, .addCartTamanho{
+        width: 60%;
+    }
+    .esquerda{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .slide2{
+        width: 100%;
+        height: 50vh;
+    }
+    .container{
+        flex-direction: column;
+        padding: 7.2rem 0;
+    }
+    .compra{
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttonDiv{
+        width: 70vw;
+    }
+    .addCart, .addCartTamanho{
+        width: 80vw;
+    }
+}

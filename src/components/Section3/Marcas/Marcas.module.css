@@ -1,0 +1,30 @@
+.marcas{
+    height: 30rem;
+    width: 100%;
+    padding: 10rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.marcas__info{
+    width: 80%;
+    border-top: 0.2rem solid black;
+    border-bottom: 0.2rem solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.marcas__info img{
+    width: 12rem;
+    object-fit: contain;
+    height: 6rem;
+}
+
+@media screen and (max-width:500px) {
+    .marcas__info img{
+        width: 8rem;
+        height: 5rem;
+    }
+}

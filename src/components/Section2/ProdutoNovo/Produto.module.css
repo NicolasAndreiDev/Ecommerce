@@ -1,0 +1,82 @@
+.card{
+    justify-content: center;
+    height: 500px;
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.card img{
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.card .adicionar{
+    display: flex;
+    background-color: rgb(30, 148, 79);
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    gap: 1rem;
+    transition: .42s;
+    overflow: hidden;
+}
+
+.adicionar:hover{
+    background-color: rgb(50, 196, 111);
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.fora{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.fora p, .fora span{
+    font-size:  1.6rem;
+    text-align: center;
+}
+
+.fora p{
+    color: #484848;
+}
+
+.fora span{
+    font-weight: 600;
+}
+
+.swiper{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+@media screen and (max-width:1100px){
+    .card{
+        height: 50vh;
+    }
+    .card img{
+        height: 50vh;
+     }
+}
+

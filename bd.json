@@ -1,0 +1,65 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "descricao": "Calça Butter",
+      "valor": 519,
+      "img": "../imagens/produtos/produto1/calcaButter.png",
+      "img2": "../imagens/produtos/produto1/calcaButterBack.png",
+      "img3": "../imagens/produtos/produto1/calcaButterZoom.png",
+      "img4": "../imagens/produtos/produto1/calcaButterZoomBack.png"
+    },
+    {
+      "id": 2,
+      "descricao": "Suéter Butter",
+      "valor": 519,
+      "img": "../imagens/produtos/produto2/sueterButter.png",
+      "img2": "../imagens/produtos/produto2/sueterButterBack.png",
+      "img3": "../imagens/produtos/produto2/sueterButterZoom.png",
+      "img4": "../imagens/produtos/produto2/sueterButterZoomBack.png"
+    },
+    {
+      "id": 3,
+      "descricao": "Calça High",
+      "valor": 399,
+      "img": "../imagens/produtos/produto3/calcaHigh.png",
+      "img2": "../imagens/produtos/produto3/calcaHighBack.png",
+      "img3": "../imagens/produtos/produto3/calcaHighZoom.png",
+      "img4": "../imagens/produtos/produto3/calcaHighZoomBack.png"
+    },
+    {
+      "id": 4,
+      "descricao": "Camisa Butter",
+      "valor": 459,
+      "img": "../imagens/produtos/produto4/camisaButter.png",
+      "img2": "../imagens/produtos/produto4/camisaButterBack.png",
+      "img3": "../imagens/produtos/produto4/camisaButterZoom.png",
+      "img4": "../imagens/produtos/produto4/camisaButterZoomBack.png"
+    },
+    {
+      "id": 5,
+      "descricao": "Suéter High",
+      "valor": 279,
+      "img": "../imagens/produtos/produto5/sueterHigh.png",
+      "img2": "../imagens/produtos/produto5/sueterHighBack.png",
+      "img3": "../imagens/produtos/produto5/sueterHighZoom.png"
+    },
+    {
+      "id": 6,
+      "descricao": "Camisa High",
+      "valor": 339,
+      "img": "../imagens/produtos/produto6/camisaHigh.png",
+      "img2": "../imagens/produtos/produto6/camisaHighBack.png",
+      "img3": "../imagens/produtos/produto6/camisaHighZoom.png"
+    },
+    {
+      "id": 7,
+      "descricao": "Camisa High",
+      "valor": 189,
+      "img": "../imagens/produtos/produto7/camisaVerdeHigh.png",
+      "img2": "../imagens/produtos/produto7/camisaVerdeHighBack.png",
+      "img3": "../imagens/produtos/produto7/camisaVerdeHighZoom.png"
+    }
+  ],
+  "carrinho": []
+}

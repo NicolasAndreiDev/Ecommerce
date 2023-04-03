@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    height: 7.2rem;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 2rem 10%;
+    z-index: 100;
+    color: black;
+    top: 0;
+    background-color: white;
+    align-items: center;
+    transition: 0.42s;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.esquerda{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+.esquerda h1{
+    font-size: 4rem;
+}
+
+.direita{
+    display: flex;
+    gap: 2rem;
+}
+
+.direita .icon{
+    width: 3rem;
+    height: auto;
+    cursor: pointer;
+}
+
