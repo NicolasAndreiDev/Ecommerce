@@ -2,7 +2,7 @@
 
 Deploy:
 
-<div>
 <a href='https://ecommerce-ecru-beta-92.vercel.app/'>SKATEST</a>
-cartão test: 4242 4242 4242 4242
+<div>
+  cartão test: 4242 4242 4242 4242
 </div>
