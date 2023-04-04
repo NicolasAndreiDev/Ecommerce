@@ -7,7 +7,7 @@ export const useListaDeProdutos = () => {
   useEffect(() => {
     const fetchProdutos = async () => {
       try {
-        const response = await axios.get("https://my-json-server.typicode.com/NicolasAndreiDev/backendEcommerce/produtos");
+        const response = await axios.get("https://back-end-ecommerce-orcin.vercel.app/produtos");
         setProdutos(response.data);
       } catch (error) {
         console.log(error);
