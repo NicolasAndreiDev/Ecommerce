@@ -18,5 +18,3 @@ Tecnologias e ferramentas utilizadas:
 Deploy: https://ecommerce-ecru-beta-92.vercel.app/
 
 cartão para pagamento test: 4242 4242 4242 4242
-
-#
